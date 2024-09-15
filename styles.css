@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: slateblue;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body {
+    background-color: skyblue;
+}
+
+header div {
+    height: 40px;
+    text-align: right;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header li a:hover {
+    background-color: skyblue;
+}
+
+.hero {
+    background-image: url('https://www.santanderopenacademy.com/content/dam/becasmicrosites/01-soa-blog/netiqueta-ejemplos-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
+}
+
+.content img {
+    max-width: 600px;
+    margin-right: 50px;
+}
+
+.info {
+    max-width: 400px;
+    text-align: justify;
+    color: black;
+}
+
+.info2 {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    max-width: 1000px; 
+    margin: 20px auto; 
+    padding: 20px;
+}
+.info2 p{
+    text-align: justify;
+
+}
+.info h2{
+    color: blue;
+    margin-bottom: 20px; 
+    font-size: 36px;
+    text-align: justify;
+}
+.info p{
+    font-size: 18px;
+}
+.p2{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.galeria-item{
+    width: calc(33.33% - 40px); 
+    margin: 20px;
+    text-align: center;
+}
+.galeria-item img{
+    max-width: 100%;
+    height: auto;
+}
+.galeria-item p{
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+.galeria-item a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: slateblue;
+    color: white;
+    text-decoration: none;
+}
+.galeria-item a:hover {
+    background-color: skyblue;
+}
+.importancia {
+    position: relative; 
+    background-image: url('https://lluviadigital.com/wp-content/uploads/2024/07/19199406-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.importancia::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+}
+
+.importancia-titulo {
+    position: relative; 
+    z-index: 2; 
+    color: black; 
+    text-align: center;
+    padding: 20px;
+}
+.importancia-titulo h2 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contenido-texto {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    max-width: 1000px; 
+    margin: 20px auto; 
+    padding: 20px;
+    
+}
+
+.contenido-texto p {
+    text-align: justify;
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+}
+.contenido-texto li{
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.reglas{
+    position: relative; 
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/885/897/non_2x/remind-rules-and-regulations-for-employees-to-follow-company-policy-discipline-procedure-controlling-people-in-organization-concept-hr-officer-telling-rules-and-regulations-for-new-employee-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.reglas-titulo{
+    font-size: 36px;
+}
+.reglas-texto{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    max-width: 1000px; 
+    margin: 20px auto; 
+    padding: 20px;
+}
+.reglas-texto p{
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.reglas-texto li{
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.reglas-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.reglas-imagen img{
+    max-width: 400px;
+    margin-right: 20px;
+}
+.reglas-info{
+    max-width: 600px;
+    text-align: justify;
+    font-size: 18px;
+}
+.rp2{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.plataformas{
+    position: relative; 
+    background-image: url('https://storage.googleapis.com/cdn-bucket-ixulabs-platform/IXU-0001/Tipos-de-plataformas/3e6230a4-2a07-4e0c-a471-95d8efe826c0-Tipos-de-plataformas');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.plataforma-titulo h2{
+    font-size: 36px;
+}
+.plataforma-texto{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    max-width: 1000px; 
+    margin: 20px auto; 
+    padding: 20px;
+}
+.plataforma-texto p{
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.galeria2 {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin: 20px;
+}
+
+.galeria-item2 {
+    width: calc(25% - 20px);
+    margin: 10px; 
+    text-align: center;
+}
+
+.galeria-item2 img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.galeria-item2 p{
+    margin: 50px 0;
+    font-size: 18px;
+    text-align: justify; 
+    width: 100%; 
+}
+.desafios{
+    position: relative; 
+    background-image: url('https://media.licdn.com/dms/image/v2/D4D12AQEUP8eULf5v0Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1670845374673?e=2147483647&v=beta&t=KHzRqwudW8YA9qC6g5GBu55elsRMooDGWnXDP-e9kh4');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.desafios-titulo h2{
+    font-size: 36px;
+}
+.desafios-texto {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    max-width: 1000px; 
+    margin: 20px auto; 
+    padding: 20px;
+    
+}
+
+.desafios-texto p {
+    text-align: justify;
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+}
+.desafios-texto li{
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.desafios-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.desafios-info{
+        max-width: 600px;
+        text-align: justify;
+        font-size: 18px;
+}
+.desafios-imagen img{
+    max-width: 600px;
+    margin-right: 20px;
+}
+.desafios-p2{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.desafios-p3{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.ventajas{
+    position: relative; 
+    background-image: url('https://3276114.fs1.hubspotusercontent-na1.net/hubfs/3276114/blog_Ventajas%20y%20desventajas%20del%20outsourcing-100.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ventajas-titulo h2{
+    font-size: 36px;
+}
+.ventajas-texto {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    max-width: 1000px; 
+    margin: 20px auto; 
+    padding: 20px;
+    
+}
+
+.ventajas-texto p {
+    text-align: justify;
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+}
+.galeria3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas en la primera fila */
+    gap: 20px; /* Espacio entre los elementos */
+    margin: 20px;
+}
+
+.galeria-item3 {
+    text-align: center;
+}
+
+.galeria-item3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.galeria-item3 p {
+    margin: 10px 0; 
+    font-size: 18px;
+    text-align: justify;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .galeria3 {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .galeria3 {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+.desventajas{
+    position: relative; 
+    background-image: url('https://www.gaceta.unam.mx/wp-content/uploads/2021/03/internetseguro002.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.desventajas-titulo h2{
+    font-size: 36px;
+    color: red;
+}
+.desventajas-texto {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    max-width: 1000px; 
+    margin: 20px auto; 
+    padding: 20px;
+    
+}
+
+.desventajas-texto p {
+    text-align: justify;
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+}
+.galeria4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    margin: 20px;
+}
+
+.galeria-item4 {
+    text-align: center;
+}
+
+.galeria-item4 img {
+    width: 100%;
+    height: 200px; 
+    display: block;
+}
+
+.galeria-item4 p {
+    margin: 10px 0; 
+    font-size: 18px;
+    text-align: justify;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .galeria4 {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .galeria4 {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
